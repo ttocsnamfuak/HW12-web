@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Latitude Analysis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="tempcss.css">
+</head>
+<body>
+<div class="container">
+       
+    <div class="rowNav">
+            <div class="col-sm-4">
+            <h3>
+                <a href="index.html">
+                    Latitude Analysis
+                </a>
+            </h3>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                    <div class="btn-group">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            Plots <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="temp.html">Temp</a></li>
+                                <li><a href="cloud.html">Clouds</a></li>
+                                <li><a href="humid.html">Humidity</a></li>
+                                <li><a href="wind.html">Wind</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-primary">
+                                    <a href="comp.html" text="white">Comparison</a>
+                                </button>
+                                <button type="button" class="btn btn-primary">
+                                    <a href="data.html">Data</a>
+                             </button>
+                            </div>
+                    </div>
+            
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-md-10">
+                <h3>Summary - Latitude and Wind</h3>
+               <br>
+               <img src="windLat.png" class="img-rounded" alt="Wind vs. Latitude" width="300" height="300">
+                <p> In this grapgh we are examining the effects latitude has on wind</p>
+                <p> takend from over 2000 different city locations around the world.</p>
+                <br>
+                <br>
+                <p> Based on the table that is presented the wind does not seem to be dependent upon the latitude</p>
+                <br>
+                <p> In order to understand how wind is effected in different parts of the world you need to take into account many more observations than just the latitude.</p>
+                <br>
+                <p> Wind is effected by tempurature.  An easy hypothisis is the closer to the equator you get the warmer the weather should be and thus more wind.</p>
+                <br>
+                <p> Wind is caused by different pressure systems.  It is the movement of air from a high pressure system to a low pressure system.</p>
+                <br>
+                <p> In order to have different pressure systems you need many things.  One item is different terrain.  Land surface typically heats up faster than water.  Thus during the day you will often have off land wind.  And at night when the land cools faster than the sea you have sea breezes.</p>
+            </div>
+            
+    </div>
+</div>
+
+</body>
+</html>

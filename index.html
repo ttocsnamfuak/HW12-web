@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Latitude Analysis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="tempcss.css">
+</head>
+<body>
+<div class="container">
+       
+    <div class="rowNav">
+            <div class="col-sm-4">
+            <h3>
+                <a href="index.html">
+                    Latitude Analysis
+                </a>
+            </h3>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                    <div class="btn-group">
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                            Plots <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="temp.html">Temp</a></li>
+                                <li><a href="cloud.html">Clouds</a></li>
+                                <li><a href="humid.html">Humidity</a></li>
+                                <li><a href="wind.html">Wind</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-primary">
+                                <a href="comp.html" text="white">Comparison</a>
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                <a href="data.html">Data</a>
+                            </button>
+                            </div>
+                    </div>
+            
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-md-8">
+                <h3>Summary - Latitude and Weather</h3>
+               <br>
+               <img src="tempLat.png" alt="Temp vs. Latitude" width="300" height="300">
+                <p>In this project we are examining the effects latitude has on different</p>
+                <p>weather components.  We examine the following items</p>
+                <br>
+                <br>
+                <p>Latitude verse temperature.  How does the temperature vary based on the further north and south you go</p>
+                <br>
+                <p>Latitude verse clouds.  How are clouds effected by the latitude</p>
+                <br>
+                <p>Latitude verse humidity.  Is humidity effected by the latitude</p>
+                <br>
+                <p>Latitude verse wind.  How is wind effected by latitude</p>
+                <br>
+                <p>Now it is important to also note that the weather is dependent upon a lot of variables that we are not able to account for with this simple analaysis.  A more indepth analsys should be undertaken before making any specific decisions or taking any actions.</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Observations</h4>        
+                <p>Select an observation to learn more.</p>
+                <br>
+                <a href="temp.html">
+                        <img src="tempLat.png" class="img-thumbnail" alt="Temp Latitude">
+                </a>
+                <a href="wind.html">
+                        <img src="windLat.png" class="img-thumbnail" alt="Wind Latitude">
+                </a>
+                <a href="humid.html">
+                        <img src="humdityLat.png" class="img-thumbnail" alt="Humidity Latitude">
+                </a>
+                <a href="cloud.html">
+                        <img src="cloudyLat.png" class="img-thumbnail" alt="Cloud Latitude">
+                </a> 
+            </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+.row {
+    padding: 10px;
+}
+.rowNav {
+    padding: 75px;
+    background-color: lightgrey;
+}
+
+.rowCnt {
+    padding: 100px;
+    background-color: lightgrey;
+
+}
+
+.row-height {
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+.col-md-6, .col-md-12, .col-md-10, .col-md-8, .col-md-4, .col-md-3, .col-md-2 {
+    background-color: #f5f3f3;
+    border-radius: 15px 15px 15px 15px;
+    border-spacing: 5px;
+    margin: 5px
+}
+
+.h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+img {
+    float: left;
+}
+
+a {
+    color: white;
+}
+
+td {
+    font: arial;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    font-style: arial;
+}
+table {
+    border-spacing: 15px;
+}
